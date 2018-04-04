@@ -1,0 +1,8 @@
+ls
+echo making directory fun3207labs!
+mkdir fun3207labs
+ls
+echo deleting directory fun3207labs!
+rmdir fun3207labs
+ls
+echo done!
