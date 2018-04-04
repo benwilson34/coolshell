@@ -1,5 +1,5 @@
 # coolshell
-a very minimal Linux shell written in C
+a very minimal unix shell written in C
 
 
      ----- coolshell v1.0 user manual -----
