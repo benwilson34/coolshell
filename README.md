@@ -7,20 +7,21 @@ a very minimal Linux shell written in C
 Thanks for trying coolshell! You can start coolshell from any other shell by simply 
 typing in "coolshell". It includes many built-in functions found in other shells, 
 listed below:
-   cd       - change directory. Usage: "cd <directory>"
-   clear    - prints newlines to clear the screen of previous commands and output.
-   help     - prints this dialog
-   environ  - prints the list of environment variables
-   echo     - prints to the screen. Usage: "echo <statement>"
-   pause    - suspends the prompt until the Enter key is pressed
-   euphoric - prints a sarcastic motivational quotation
-   thanks   - give coolshell some love
-   quit     - exit the shell
-   exit     - exit the shell
+   * cd       - change directory. Usage: "cd \<directory>"
+   * clear    - prints newlines to clear the screen of previous commands and output.
+   * help     - prints this dialog
+   * environ  - prints the list of environment variables
+   * echo     - prints to the screen. Usage: "echo \<statement>"
+   * pause    - suspends the prompt until the Enter key is pressed
+   * euphoric - prints a sarcastic motivational quotation
+   * thanks   - give coolshell some love
+   * quit     - exit the shell
+   * exit     - exit the shell
 
 An example prompt, command, and output are as follows:
 
-  ```~tuf08776 is coolguy~/home/TU/tuf08776>thanks
+  ```
+  ~tuf08776 is coolguy~/home/TU/tuf08776>thanks
   cs~>No problem, buddy.
   ```
 
@@ -28,10 +29,10 @@ It also supports UNIX commands such as ls, mkdir, rm, cp, et cetera. Any program
 on the system can also be run in the same manner, such as nano, emacs, or vim.
 
 I/O redirection is supported in the following forms:
-   <  - redirect input to a function from a file
-   >  - redirect output from a function to a file
-   >> - append output from a function to a file
-   |  - pipe output of one function as the input of another function
+   * \<  - redirect input to a function from a file
+   * \>  - redirect output from a function to a file
+   * \>\> - append output from a function to a file
+   * |  - pipe output of one function as the input of another function
 
 For example, the following command uses input and output redirection:
 
